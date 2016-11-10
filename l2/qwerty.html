@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>QWERTY Keyboard</title>
+        <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+                <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        
+        <div class="container">
+            <h2>QWERTY KEYBOARD </h2>
+            </br></br></br>
+            <button type="button" class="btn btn-primary" style="width:60px">Esc</button>
+            <button type="button" class="btn btn-primary" style="width:60px">F1</button>
+            <button type="button" class="btn btn-primary" style="width:60px">F2</button>
+            <button type="button" class="btn btn-primary" style="width:60px">F3</button>
+            <button type="button" class="btn btn-primary" style="width:60px">F4</button>
+            <button type="button" class="btn btn-primary" style="width:60px">F5</button>
+            <button type="button" class="btn btn-primary" style="width:60px">F6</button>
+            <button type="button" class="btn btn-primary" style="width:60px">F7</button>
+            <button type="button" class="btn btn-primary" style="width:60px">F8</button>
+            <button type="button" class="btn btn-primary" style="width:60px">F9</button>
+            <button type="button" class="btn btn-primary" style="width:60px">F10</button>
+            <button type="button" class="btn btn-primary" style="width:60px">F11</button>
+            <button type="button" class="btn btn-primary" style="width:60px">F12</button>
+            <button type="button" class="btn btn-primary" style="width:80px">Del</button>
+            </br></br>
+            <button type="button" class="btn btn-primary" style="width:60px">`</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('1')" style="width:60px">1</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('2')" style="width:60px">2</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('3')" style="width:60px">3</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('4')" style="width:60px">4</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('5')" style="width:60px">5</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('6')" style="width:60px">6</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('7')" style="width:60px">7</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('8')" style="width:60px">8</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('9')" style="width:60px">9</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('0')" style="width:60px">0</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('-')" style="width:60px">-</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('+')" style="width:60px">+</button>
+            <button type="button" class="btn btn-primary" onclick="delChar()" style="width:80px">Back</button>
+            </br></br>
+            <button type="button" class="btn btn-primary" style="width:80px">Tab</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('q')" style="width:60px">q</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('w')" style="width:60px">w</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('e')" style="width:60px">e</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('r')" style="width:60px">r</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('t')" style="width:60px">t</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('y')" style="width:60px">y</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('u')" style="width:60px">u</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('i')" style="width:60px">i</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('o')" style="width:60px">o</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('p')" style="width:60px">p</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('{')" style="width:60px">{</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('}')" style="width:60px">}</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('\')" style="width:60px">\</button>
+            </br></br>
+            <button type="button" class="btn btn-primary" style="width:100px">CapsLock</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('a')" style="width:60px">a</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('s')" style="width:60px">s</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('d')" style="width:60px">d</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('f')" style="width:60px">f</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('g')" style="width:60px">g</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('h')" style="width:60px">h</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('j')" style="width:60px">j</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('k')" style="width:60px">k</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('l')" style="width:60px">l</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar(';')" style="width:60px">;</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar(''')" style="width:60px">'</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('\n')" style="width:100px">Enter</button>
+            </br></br>
+            <button type="button" class="btn btn-primary" style="width:100px">Shift</button>
+            <button type="button" class="btn btn-primary" style="width:60px">\</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('z')" style="width:60px">z</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('x')" style="width:60px">x</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('c')" style="width:60px">c</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('v')" style="width:60px">v</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('b')" style="width:60px">b</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('n')" style="width:60px">n</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('m')" style="width:60px">m</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar(',')" style="width:60px">,</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('.')" style="width:60px">.</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar('/')" style="width:60px">/</button>
+            <button type="button" class="btn btn-primary" style="width:100px">Shift</button>
+            </br></br>
+            <button type="button" class="btn btn-primary" style="width:80px">Ctrl</button>
+            <button type="button" class="btn btn-primary" style="width:60px">Win</button>
+            <button type="button" class="btn btn-primary" style="width:60px">Alt</button>
+            <button type="button" class="btn btn-primary" onclick="insertChar(' ')" style="width:400px">Space</button>
+            <button type="button" class="btn btn-primary" style="width:60px">Alt</button>
+            <button type="button" class="btn btn-primary" style="width:60px">Menu</button>
+            <button type="button" class="btn btn-primary" style="width:80px">Ctrl</button>
+            <button type="button" class="btn btn-primary" style="width:80px"></button>
+            </br></br>
+            Text Output
+            </br>
+            <input type = "text" name = "keyboard-text" id = "key-text" style=" height: 350px;width:900px">
+             </br></br>
+        </div>
+    <script src = "keyboard-text.js"></script>
+    </body>
+</html>
